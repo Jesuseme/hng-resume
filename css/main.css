@@ -16,6 +16,27 @@
   flex-wrap: wrap;
 }
 
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 439px;
+}
+
+.wave .shape-fill {
+  fill: #3d3c3c10;
+}
+
 header {
   display: flex;
   flex-grow: 1;
@@ -92,7 +113,6 @@ section p {
 
 .profile .bio {
   padding: 30px 10px;
-  border-left: 1px solid;
   font-weight: 400;
   margin: 20px 10px;
   background-color: #b4b4b4;
@@ -119,7 +139,6 @@ a img {
 
 article {
   padding: 30px 10px;
-  border-left: 1px solid;
   font-weight: 400;
   margin: 20px 10px;
   background-color: #b4b4b4;
@@ -210,5 +229,9 @@ ul li a img:hover {
 
   .links {
     flex-direction: column;
+  }
+
+  section {
+    width: 90%;
   }
 }
