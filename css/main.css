@@ -95,8 +95,8 @@ section p {
   border-left: 1px solid;
   font-weight: 400;
   margin: 20px 10px;
-  background-color: #504e4e;
-  color: #fff;
+  background-color: #b4b4b4;
+  color: #000;
   border-radius: 5px;
 }
 
@@ -122,9 +122,9 @@ article {
   border-left: 1px solid;
   font-weight: 400;
   margin: 20px 10px;
-  background-color: #504e4e;
+  background-color: #b4b4b4;
   border-radius: 5px;
-  color: #fff;
+  color: #000;
 }
 
 button {
@@ -193,13 +193,13 @@ ul li a img:hover {
 
 .links {
   margin: 30px 0;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .links img {
-  height: 40px ;
+  height: 40px;
 }
 
 @media (max-width: 991px) {

@@ -10,13 +10,20 @@
     <link rel="stylesheet" href="./css/main.css">
 
     <link rel="icon" href="./img/circle.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/zoomIn.css">
 </head>
 
 <body>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
     <div id="container">
 
-        <header>
+        <header class="wow zoomIn">
 
             <div class="image"><img src="./img/profile.jpg" alt=""></div>
 
@@ -34,16 +41,16 @@
 
         <section class="profile">
 
-            <h3><img src="./img/user.png" alt=""> About Me</h3>
+            <h3 class="wow bounceInLeft"><img src="./img/user.png" alt=""> About Me</h3>
 
-            <p class="bio">Budding Software Developer seeking opportunities for growth and further development. Talented
+            <p class="bio wow bounceIn">Budding Software Developer seeking opportunities for growth and further development. Talented
                 Systems and Data Analyst with proficiency in systems requirements, development and implementation; with
                 in-depth knowledge of project life-cycle including all phases of system and software development.
                 All-round IT Specialist with proficiency in relevant technical skills for business support. </p>
 
 
-            <h4> <img src="./img/skills.png" alt=""> Skill Set</h4>
-            <article>
+            <h4 class="wow slideInLeft"> <img src="./img/skills.png" alt=""> Skill Set</h4>
+            <article class="wow bounceIn">
                 <p>Front-End - Bootstrap, CSS</p>
 
                 <p>Back-End - Php, Javascript, Python</p>
@@ -54,15 +61,15 @@
             </article>
 
 
-            <h4> <img src="./img/edu.png" alt=""> Education</h4>
-            <article>
+            <h4 class="wow slideInRight"> <img src="./img/edu.png" alt=""> Education</h4>
+            <article class="wow bounceIn">
                 <p>Babcock University, Nigeria. — BSc. Computer Science | 2018 </p>
 
                 <p>FreeCodeCamp, freecodecamp.com — Responsive web design certification. | 2020</p>
             </article>
 
-            <h4> <img src="./img/bag.png" alt=""> Experience</h4>
-            <article>
+            <h4 class="wow slideInRight"> <img src="./img/bag.png" alt=""> Experience</h4>
+            <article class="wow bounceIn">
                 <h5>SepBravTech — Full-Stack Developer | 2021 </h5>
                 <p>Building websites for clients and managing the back-end of websites previously built by the
                     company.Building in-house company web projects and tools.</p>
@@ -75,8 +82,8 @@
                 <p> Finalist- was successful in completing the objectives and tasks.</p>
             </article>
 
-            <h4> <img src="./img/projects.png" alt=""> Projects</h4>
-            <article>
+            <h4 class="wow slideInLeft"> <img src="./img/projects.png" alt=""> Projects</h4>
+            <article class="wow bounceIn">
                 <p>Personal Portfolio: My Personal online Resume and contact info links</p>
                 <a href="https://portfolio-page-roan.vercel.app/"> view &rarr;</a>
 
@@ -88,8 +95,8 @@
 
             </article>
 
-            <h4> <img src="./img/tools.png" alt=""> Tools</h4>
-            <article>
+            <h4 class="wow slideInLeft"> <img src="./img/tools.png" alt=""> Tools</h4>
+            <article class="wow bounceIn">
                 <p>Git/Github</p>
 
                 <p>Slack</p>
@@ -102,7 +109,7 @@
 
         </section>
 
-        <section class="contact">
+        <section class="contact wow bounceInUp">
 
             <h3>Get in touch</h3>
 
@@ -114,7 +121,7 @@
 
         </section>
 
-        <section class="links">
+        <section class="links wow bounceInUp">
             <h4>Related Links:</h4>
 
             <p><a href="https://zuri.team/"><img src="./img/zuri teams.jfif" alt="zuri team"></a></p>
@@ -129,6 +136,4 @@
 
 </body>
 
-</html>
-
-<script src="print.js"></script>
+</html> 
